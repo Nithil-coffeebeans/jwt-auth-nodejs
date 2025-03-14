@@ -2,9 +2,9 @@
 
 This is a simple Node.js project demonstrating JWT authentication with three routes:
 
-1. **User Registration (`/register`)** - Allows new users to sign up.
-2. **Login (`/login`)** - Authenticates users and returns a JWT token.
-3. **Protected Route (`/main`)** - A secured route accessible only to authenticated users with a valid token.
+1. **User Registration (`/auth/register`)** - Allows new users to sign up.
+2. **Login (`/auth/login`)** - Authenticates users and returns a JWT token.
+3. **Protected Route (`/main/`)** - A secured route accessible only to authenticated users with a valid token.
 
 ## Features
 

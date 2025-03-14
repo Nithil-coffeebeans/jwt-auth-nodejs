@@ -1,0 +1,30 @@
+{
+  "name": "jwt-auth-nodejs",
+  "version": "1.0.0",
+  "description": "Simple jwt authentication in node js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nithil-coffeebeans/jwt-auth-nodejs.git"
+  },
+  "keywords": [
+    "jwt"
+  ],
+  "author": "Nithil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nithil-coffeebeans/jwt-auth-nodejs/issues"
+  },
+  "homepage": "https://github.com/Nithil-coffeebeans/jwt-auth-nodejs#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
